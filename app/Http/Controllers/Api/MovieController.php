@@ -12,7 +12,7 @@ use App\Http\Resources\MovieCollection as MovieCollection;
 class MovieController extends Controller
 {
   /**
-   * Display a listing of the resource.
+   * Display list of movies
    *
    * @return \Illuminate\Http\Response
    */
@@ -40,7 +40,7 @@ class MovieController extends Controller
   }
 
   /**
-   * Display the specified resource.
+   * Get list of movies playing at a given cinema on a given date
    *
    * @param  string  $cinema, $date
    * @return \Illuminate\Http\Response

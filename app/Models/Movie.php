@@ -9,6 +9,11 @@ class Movie extends Model
 {
   use HasFactory;
 
+  /**
+   * The attributes that are mass assignable.
+   *
+   * @var array
+   */
   protected $fillable = [
     'title',
     'parental_rating',

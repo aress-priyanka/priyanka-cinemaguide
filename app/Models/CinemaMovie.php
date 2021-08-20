@@ -11,6 +11,11 @@ class CinemaMovie extends Model
 
   public $table = 'cinema_movie';
 
+  /**
+   * The attributes that are mass assignable.
+   *
+   * @var array
+   */
   protected $fillable = [
     'cinema_id',
     'movie_id',
